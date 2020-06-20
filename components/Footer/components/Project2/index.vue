@@ -16,7 +16,7 @@
     </div>
     <ul>
       <li>
-        <span id="text" class="text">Herdesign</span>
+        <span id="text" class="text">Herdesignn</span>
       </li>
       <li>
         <span id="text">Houtwerk</span>

@@ -22,7 +22,7 @@
         <span id="text">Onderhoud</span>
       </li>
       <li>
-        <span class="text">Reparatie</span>
+        <span class="text">Reparatiee</span>
       </li>
     </ul>
   </section>
