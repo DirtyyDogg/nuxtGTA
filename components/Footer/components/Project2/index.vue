@@ -36,6 +36,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+path {
+    fill: #d2d2c8;
+    text-shadow: 29px 8px 12px black !important;
+}
 span#text:after {
     content: ' | ';
 }
