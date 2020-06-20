@@ -22,6 +22,7 @@
       md="6"
     >
       <h1>Sbar</h1>
+      <fa :icon="['fas', 'dollar-sign']" />
     </b-col>
   </b-row>
 </template>
@@ -35,6 +36,12 @@ export default {
 <style lang="scss" scoped>
 h4 {
   font-weight: bold;
+}
+path {
+  fill: #333;
+}
+svg.svg-inline--fa.fa-dollar-sign.fa-w-9 {
+  font-size: 69px;
 }
 
 </style>
