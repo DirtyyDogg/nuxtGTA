@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="project">
-      <nuxt-link to="#">
+      <a href="#" class="iconn">
         <img src="~/assets/project2.jpg" alt="Avatar" class="image">
         <div class="overlay">
           <!-- size="4x" -->
@@ -12,7 +12,7 @@
             />
           </a>
         </div>
-      </nuxt-link>
+      </a>
     </div>
     <ul>
       <li>
