@@ -5,7 +5,7 @@
       <div class="overlay">
         <!-- size="4x" -->
         <a href="#" class="icon" title="User Profile">
-          <fa-icon
+          <fa
             :icon="['fas', 'expand-alt']"
             size="2x"
           />
