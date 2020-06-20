@@ -21,7 +21,7 @@
       col
       md="6"
     >
-      <h1>skillbar</h1>
+      <h1>Sbar</h1>
     </b-col>
   </b-row>
 </template>
