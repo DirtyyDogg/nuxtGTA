@@ -1,8 +1,9 @@
 <template>
-  <fa-icon
+  <!-- <fa-icon
     :icon="['fas', 'check']"
     size="1x"
-  />
+  /> -->
+  <fa :icon="['fas', 'check']" />
 </template>
 
 <script>
