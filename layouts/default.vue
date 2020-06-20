@@ -25,6 +25,11 @@ export default {
     // background: yellowgreen !important;
   }
 }
+html, body {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    min-width: 100vw !important;
+}
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
