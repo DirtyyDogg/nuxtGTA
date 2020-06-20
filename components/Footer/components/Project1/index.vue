@@ -16,7 +16,9 @@
     </div>
     <ul>
       <li>
-        <span id="text" class="text">Keuken</span>
+        <nuxt-link to="/projecten">
+          <span id="text" class="text">Keuken</span>
+        </nuxt-link>
       </li>
       <li>
         <span id="text">Onderhoud</span>
