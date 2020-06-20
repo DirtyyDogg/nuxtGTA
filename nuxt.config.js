@@ -47,7 +47,7 @@ module.exports = {
       imports: [
         {
           set: '@fortawesome/free-solid-svg-icons',
-          icons: ['faDollarSign', 'faCheck']
+          icons: ['faDollarSign', 'faCheck', 'faExpandAlt']
         }
       ]
     }],
