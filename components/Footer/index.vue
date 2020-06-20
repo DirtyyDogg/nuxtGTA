@@ -115,6 +115,7 @@ export default {
 }
 #hide {
   visibility: hidden;
+  width: 17%;
 }
 #text-center {
   text-align: center!important;

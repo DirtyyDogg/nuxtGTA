@@ -36,6 +36,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.col-lg-3 {
+  max-width: 31%;
+}
 path {
     fill: #d2d2c8;
     text-shadow: 29px 8px 12px black !important;
