@@ -26,7 +26,7 @@
               <ul>
                 <li>
                   <span class="icn">
-                    <fa-icon
+                    <fa
                       :icon="['fas', 'check']"
                       size="1x"
                     />
