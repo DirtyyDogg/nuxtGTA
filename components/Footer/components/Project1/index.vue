@@ -1,18 +1,18 @@
 <template>
   <section>
     <div class="project">
-      <nuxt-link to="/projecten" class="iconn">
+      <a href="/projecten" class="iconn">
         <img src="~/assets/project1.jpeg" alt="Avatar" class="image">
         <div class="overlay">
           <!-- size="4x" -->
-          <nuxt-link to="/projecten" class="icon" title="User Profile">
+          <a href="/projecten" class="icon" title="User Profile">
             <fa
               :icon="['fas', 'expand-alt']"
               size="2x"
             />
-          </nuxt-link>
+          </a>
         </div>
-      </nuxt-link>
+      </a>
     </div>
     <ul>
       <li>
