@@ -4,18 +4,19 @@
       fluid
     >
       <b-container>
-        <b-row
-          align-h="between"
-          cols="1"
-          cols-md="3"
-        >
-          <b-col>
+        <b-row>
+          <b-col
+            cols="12"
+            md="4"
+          >
             <H9col1 />
             <p>
               Wij zijn een in 2016 opgericht klussen bedrijf met roots die al ruim 20 jaar oud zijn. Mede door onze snelle werkwijze, eerlijke prijs en onze dwang om kwaliteit snelheid en service te biede. Horen wij maar zelden dat een klant niet direct tevreden is.
             </p>
           </b-col>
-          <b-col>
+          <b-col
+            md="4"
+          >
             <H9col2 />
             <div class="list">
               <ul>
@@ -61,7 +62,7 @@
               </ul>
             </div>
           </b-col>
-         <ProjectContainer />
+          <ProjectContainer />
         </b-row>
       </b-container>
     </b-container>
