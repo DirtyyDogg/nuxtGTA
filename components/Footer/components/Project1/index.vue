@@ -41,6 +41,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.text {
+    color: #8c8b8b;
+}
+#text {
+  color: #8c8b8b;
+}
+#text:hover {
+  text-decoration-line: underline;
+}
 a, a:hover {
   color: black;
 }

@@ -15,6 +15,7 @@ export default {
   font-weight: 500;
   line-height: 1.6em;
   font-size: 18px;
+  color: #8c8b8b;
   margin: auto;
   // margin-left: 38px;
 }

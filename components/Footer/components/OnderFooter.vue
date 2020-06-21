@@ -19,8 +19,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+footer#footer {
+    background: #1a1a1a;
+}
 a, a:hover {
-  color: black;
+  color: ghostwhite;
 }
 footer#footer {
     text-align: center;

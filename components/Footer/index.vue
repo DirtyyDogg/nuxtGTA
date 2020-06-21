@@ -111,6 +111,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+p, .text {
+  color: #8c8b8b;
+}
 #test, #testt {
   margin: 0 auto;
   padding: 0;
@@ -137,7 +140,7 @@ export default {
   padding: 61px;
   margin: 0 ;
   margin-top: 5rem;
-  background: yellowgreen;
+  background: #292929;
 }
 ul {
   padding: 0;
