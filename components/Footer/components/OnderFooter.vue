@@ -22,6 +22,10 @@ export default {
 footer#footer {
     background: #1a1a1a;
 }
+footer#footer{
+  position: absolute;
+  width: 100vw;
+}
 a, a:hover {
   color: ghostwhite;
 }
