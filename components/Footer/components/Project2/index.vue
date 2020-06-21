@@ -31,7 +31,6 @@
         </nuxt-link>
       </li>
       <li>
-        <span class="text">Timmerwerk</span>
         <nuxt-link to="/projecten">
           <span id="text">Timmerwerk</span>
         </nuxt-link>
