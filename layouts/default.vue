@@ -26,9 +26,7 @@ export default {
   }
 }
 html, body {
-    width: 100vw !important;
-    max-width: 100vw !important;
-    min-width: 100vw !important;
+    width: 100% !important;
 }
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
@@ -77,5 +75,12 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
 }
 </style>
