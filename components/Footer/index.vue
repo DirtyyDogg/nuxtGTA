@@ -109,6 +109,10 @@ ul {
 li {
   list-style: none;
 }
+.list {
+    margin-top: 7px !important;
+    margin: auto;
+}
 @media screen and (max-width: 991px) and (min-width: 500px) {
   #hide {
     display: none;

@@ -29,5 +29,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
 </style>
