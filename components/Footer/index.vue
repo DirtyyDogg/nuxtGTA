@@ -136,7 +136,7 @@ p, .text {
   text-align: center!important;
 }
 .container-fluid {
-  width: 100%;
+  width: 100vw;
   padding: 61px;
   margin: 0 ;
   margin-top: 5rem;
