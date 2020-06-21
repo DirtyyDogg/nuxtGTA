@@ -68,6 +68,7 @@
           </b-col>
           <b-col
             id="hide"
+            style="display:none;"
             cols="6"
             col
             md="4"
@@ -76,14 +77,14 @@
           >
             col onzichtbaar
           </b-col>
-          <b-col cols="12" col md="4" lg="3">
+          <b-col id="test" cols="12" col md="4" lg="3">
             <H9col3 />
             <b-container>
               <b-row>
-                <b-col>
+                <b-col id="test">
                   <Project1 />
                 </b-col>
-                <b-col>
+                <b-col id="testt">
                   <Project2 />
                 </b-col>
               </b-row>
@@ -110,6 +111,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+#test, #testt {
+  margin: 0 auto;
+  padding: 0;
+}
+#test {
+    // margin: 0 auto;
+    // padding: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
 .svg-inline--fa {
   box-shadow: 2px 2px 0px 0px #88888854;
 }
