@@ -1,7 +1,9 @@
 <template>
   <div class="footer">
     <footer id="footer" class="footer">
-      {{ SiteNaam }}.nl
+      <nuxt-link to="/">
+        {{ SiteNaam }}.nl
+      </nuxt-link>
     </footer>
   </div>
 </template>
@@ -17,6 +19,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+a, a:hover {
+  color: black;
+}
 footer#footer {
     text-align: center;
 }

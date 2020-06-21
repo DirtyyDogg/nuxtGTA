@@ -48,7 +48,6 @@ export default {
 <style lang="scss" scoped>
 a, a:hover {
   color: black;
-  text-decoration: none;
 }
 .col-lg-3 {
   max-width: 31%;
