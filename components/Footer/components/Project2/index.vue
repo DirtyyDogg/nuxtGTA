@@ -16,16 +16,25 @@
     </div>
     <ul>
       <li>
-        <span id="text" class="text">Herdesignn</span>
+        <nuxt-link to="/projecten">
+          <span id="text">Herdesignn</span>
+        </nuxt-link>
       </li>
       <li>
-        <span id="text">Houtwerk</span>
+        <nuxt-link to="/projecten">
+          <span id="text">Houtwerk</span>
+        </nuxt-link>
       </li>
       <li>
-        <span id="text">Muur</span>
+        <nuxt-link to="/projecten">
+          <span id="text">Muur</span>
+        </nuxt-link>
       </li>
       <li>
         <span class="text">Timmerwerk</span>
+        <nuxt-link to="/projecten">
+          <span id="text">Timmerwerk</span>
+        </nuxt-link>
       </li>
     </ul>
   </section>
@@ -38,6 +47,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+a, a:hover {
+  color: black;
+  text-decoration: none;
+}
 .col-lg-3 {
   max-width: 31%;
 }

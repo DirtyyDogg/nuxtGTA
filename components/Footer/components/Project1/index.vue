@@ -21,10 +21,14 @@
         </nuxt-link>
       </li>
       <li>
-        <span id="text">Onderhoud</span>
+        <nuxt-link to="/projecten">
+          <span id="text">Onderhoud</span>
+        </nuxt-link>
       </li>
       <li>
-        <span class="text">Reparatiee</span>
+        <nuxt-link to="/projecten">
+          <span id="text">Reparatiee</span>
+        </nuxt-link>
       </li>
     </ul>
   </section>
@@ -37,6 +41,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+a, a:hover {
+  color: black;
+  text-decoration: none;
+}
 .col-lg-3 {
   max-width: 31%;
 }
