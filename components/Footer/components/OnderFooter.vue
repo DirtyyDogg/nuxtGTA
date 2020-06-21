@@ -23,8 +23,10 @@ footer#footer {
     background: #1a1a1a;
 }
 footer#footer{
-  position: absolute;
+  position: relative;
+  bottom: 0px;
   width: 100vw;
+  height: auto;
 }
 a, a:hover {
   color: ghostwhite;
