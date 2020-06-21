@@ -2,7 +2,7 @@
   <b-row
     cols="1"
     cols-md="3"
-    style="text-align: center; margin-top: 5rem;"
+    style="text-align: center; margin-top: 5rem; margin-right: 0px;"
   >
     <b-col>
       <Project1 />
